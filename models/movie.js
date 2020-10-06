@@ -15,16 +15,16 @@ module.exports = (sequelize, DataTypes) => {
   };
   Movie.init({
     title: {
-      type: DataTypes.STRING,
-      allowNull: false
+        type: DataTypes.STRING,
+        allowNull: false
     },
     poster_path: DataTypes.STRING,
     overview: DataTypes.TEXT,
     release_date: DataTypes.DATE,
     vote_average: DataTypes.FLOAT
-  }, {
+}, {
     sequelize,
     modelName: 'Movie',
-  });
-  return Movie;
+});
+return Movie;
 };

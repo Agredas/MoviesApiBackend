@@ -1,13 +1,13 @@
 {
-    "idleHeartbeats": 1676,
-    "navigatingHeartbeats": 108,
-    "totalCodingHeartbeats": 1260,
+    "idleHeartbeats": 2581,
+    "navigatingHeartbeats": 434,
+    "totalCodingHeartbeats": 1518,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 168,
         "plaintext": 45,
-        "javascript": 953
+        "javascript": 1211
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 45,
@@ -15,9 +15,9 @@
         "package.json": 112,
         "config/config.json": 56,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
-        "app.js": 142,
-        "models/movie.js": 114,
+        "app.js": 294,
+        "models/movie.js": 164,
         "routes/movies.js": 175,
-        "controllers/MovieController.js": 522
+        "controllers/MovieController.js": 578
     }
 }
