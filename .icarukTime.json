@@ -1,0 +1,16 @@
+{
+    "idleHeartbeats": 56,
+    "navigatingHeartbeats": 11,
+    "totalCodingHeartbeats": 217,
+    "languageHeartbeats": {
+        "scminput": 45,
+        "ignore": 49,
+        "json": 123
+    },
+    "fileHeartbeats": {
+        "scm\\git\\scm0\\input": 45,
+        ".gitignore": 49,
+        "package.json": 112,
+        "config/config.json": 11
+    }
+}

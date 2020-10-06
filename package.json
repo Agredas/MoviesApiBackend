@@ -1,0 +1,24 @@
+{
+  "name": "moviesapibackend",
+  "version": "1.0.0",
+  "description": "API Rest of movies made with JavaScript, mySQL with Sequelize, only the backend part.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agredas/MoviesApiBackend.git"
+  },
+  "author": "Andrea Ágredas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agredas/MoviesApiBackend/issues"
+  },
+  "homepage": "https://github.com/Agredas/MoviesApiBackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
