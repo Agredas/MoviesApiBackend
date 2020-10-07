@@ -1,13 +1,13 @@
 {
-    "idleHeartbeats": 9825,
-    "navigatingHeartbeats": 3454,
-    "totalCodingHeartbeats": 6124,
+    "idleHeartbeats": 9938,
+    "navigatingHeartbeats": 3521,
+    "totalCodingHeartbeats": 6269,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 258,
-        "plaintext": 187,
-        "javascript": 5540,
+        "plaintext": 287,
+        "javascript": 5585,
         "jsonc": 45
     },
     "fileHeartbeats": {
@@ -16,7 +16,7 @@
         "package.json": 202,
         "config/config.json": 56,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
-        "app.js": 675,
+        "app.js": 720,
         "models/movie.js": 448,
         "routes/movies.js": 310,
         "controllers/MovieController.js": 675,
@@ -32,6 +32,7 @@
         "controllers/OrderController.js": 510,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\controllers\\OrderController.js.git": 45,
         "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\settings.json": 45,
-        "routes/orders.js": 94
+        "routes/orders.js": 94,
+        ".env": 100
     }
 }
