@@ -1,13 +1,13 @@
 {
-    "idleHeartbeats": 4928,
-    "navigatingHeartbeats": 664,
-    "totalCodingHeartbeats": 3111,
+    "idleHeartbeats": 5345,
+    "navigatingHeartbeats": 986,
+    "totalCodingHeartbeats": 3620,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 213,
         "plaintext": 142,
-        "javascript": 2662
+        "javascript": 3171
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 45,
@@ -24,6 +24,7 @@
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\models\\user.js.git": 45,
         "controllers/UserController.js": 1022,
         "routes/users.js": 190,
-        "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\routes\\users.js.git": 7
+        "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\routes\\users.js.git": 7,
+        "middleware/auth.js": 509
     }
 }
