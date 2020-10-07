@@ -1,13 +1,13 @@
 {
-    "idleHeartbeats": 5345,
-    "navigatingHeartbeats": 986,
-    "totalCodingHeartbeats": 3620,
+    "idleHeartbeats": 7976,
+    "navigatingHeartbeats": 1997,
+    "totalCodingHeartbeats": 5243,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 213,
         "plaintext": 142,
-        "javascript": 3171
+        "javascript": 4794
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 45,
@@ -15,16 +15,19 @@
         "package.json": 157,
         "config/config.json": 56,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
-        "app.js": 372,
-        "models/movie.js": 209,
+        "app.js": 561,
+        "models/movie.js": 448,
         "routes/movies.js": 175,
         "controllers/MovieController.js": 578,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\models\\movie.js.git": 45,
-        "models/user.js": 116,
+        "models/user.js": 225,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\models\\user.js.git": 45,
-        "controllers/UserController.js": 1022,
-        "routes/users.js": 190,
+        "controllers/UserController.js": 1176,
+        "routes/users.js": 235,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\routes\\users.js.git": 7,
-        "middleware/auth.js": 509
+        "middleware/auth.js": 558,
+        "config/nodemailer.js": 234,
+        "models/order.js": 139,
+        "controllers/OrderController.js": 465
     }
 }
