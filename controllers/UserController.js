@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const UserController = {
   async signup(req,res){
       try{
-        req.body.password = await bcrypt.hast(req.body.password, 9)
+        req.body.password = await bcrypt.hash(req.body.password, 9)
         const user = await User.create(req.body);
         res.status(201).send(user)
       } catch(error){
@@ -28,7 +28,7 @@ const UserController = {
           message: 'Wrong credentials.'
         })
       }
-      const isMatch = await bcrypt.compare(req.bod.password, user.password)
+      const isMatch = await bcrypt.compare(req.body.password, user.password)
       if (!isMatch){
         return res.status(400).send({
           message: 'Wrong credentials.'
@@ -38,7 +38,7 @@ const UserController = {
       console.log(token)
       user.token = token;
       await user.save()
-      res.send(user);
+      res.send(user.token);
     }catch (error){
       console.error(error);
       res.status(500).send({message: 'There was a problem trying to login.'})

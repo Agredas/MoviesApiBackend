@@ -11,7 +11,7 @@ const MovieController = {
       .catch(error => {
         console.error(error);
         res.status(500).send({
-          message: 'There was a problem trying to get movies.'
+          message: 'Unable to get movies.'
         })
       })
   },
@@ -21,7 +21,7 @@ const MovieController = {
       .catch(error => {
         console.log(error);
         res.status(500).send({
-          message: 'There was a problem trying to get the movie.'
+          message: 'Unable trying to get the movie.'
         })
     })
   },
@@ -37,7 +37,7 @@ const MovieController = {
       .catch(error => {
         console.log(error);
         res.status(500).send({
-          message: 'There was a problem trying to get the movie.'
+          message: 'Unable trying to get the movie.'
         })
     })
   },
@@ -47,7 +47,7 @@ const MovieController = {
       .catch(error => {
         console.log(error);
         res.status(500).send({
-          message: 'There was a problem trying to create the movie.'
+          message: 'Unable trying to create the movie.'
         })
       })
   }
