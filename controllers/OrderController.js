@@ -17,7 +17,7 @@ const OrderController = {
         }, {
           model: User,
           attributes: {
-            exclude: ['password']
+            exclude: ['name', 'email']
           }
         }]
       });
@@ -33,7 +33,7 @@ const OrderController = {
     const returnDate = new Date();
     returnDate.setDate(returnDate.getDate() + 2)
     Order.create({
-      status: 'cancelled',
+      status: 'Order cancelled.',
       returnDate,
       userId: req.user.id
     })

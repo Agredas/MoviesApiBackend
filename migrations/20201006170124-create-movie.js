@@ -9,19 +9,18 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       title: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false
       },
-      poster_path: {
+      image: {
         type: Sequelize.STRING
       },
       overview: {
         type: Sequelize.TEXT
       },
-      release_date: {
-        type: Sequelize.DATE
-      },
-      vote_average: {
-        type: Sequelize.FLOAT
+      release_year: {
+        type: Sequelize.INTEGER,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,

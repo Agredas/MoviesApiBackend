@@ -10,8 +10,8 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.belongsTo(models.User); // An order only belongs to one user.
-      this.belongsToMany(models.Movie, {through: models.OrderMovie});
+      this.belongsTo(models.User); // An order only belongs to one user. One to Many inverse relationship.
+      this.belongsToMany(models.Movie, {through: models.OrderMovie}); // An order can belongs to many movies.
     }
   };
   Order.init({

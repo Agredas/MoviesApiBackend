@@ -1,14 +1,13 @@
 const {User} = require('../models');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-/* const transporter = require('../config/nodemailer'); */
 
 const UserController = {
   async signup(req,res){
       try{
         req.body.password = await bcrypt.hash(req.body.password, 9)
         const user = await User.create(req.body);
-        res.status(201).send(user)
+        res.status(201).send(user);
       } catch(error){
         console.error(error);
         res.status(500).send({
@@ -38,7 +37,7 @@ const UserController = {
       console.log(token)
       user.token = token;
       await user.save()
-      res.send(user.token);
+      res.send(user);
     }catch (error){
       console.error(error);
       res.status(500).send({message: 'There was a problem trying to login.'})

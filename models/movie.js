@@ -18,10 +18,12 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false
     },
-    poster_path: DataTypes.STRING,
+    image: DataTypes.STRING,
     overview: DataTypes.TEXT,
-    release_date: DataTypes.DATE,
-    vote_average: DataTypes.FLOAT
+    release_year: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
 }, {
     sequelize,
     modelName: 'Movie',
