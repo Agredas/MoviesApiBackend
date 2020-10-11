@@ -1,13 +1,13 @@
 {
     "idleHeartbeats": 15743,
-    "navigatingHeartbeats": 6460,
-    "totalCodingHeartbeats": 8976,
+    "navigatingHeartbeats": 6492,
+    "totalCodingHeartbeats": 8983,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 258,
         "plaintext": 287,
-        "javascript": 8292,
+        "javascript": 8299,
         "jsonc": 45
     },
     "fileHeartbeats": {
@@ -16,7 +16,7 @@
         "package.json": 202,
         "config/config.json": 56,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
-        "app.js": 811,
+        "app.js": 818,
         "models/movie.js": 652,
         "routes/movies.js": 460,
         "controllers/MovieController.js": 675,
