@@ -6,7 +6,7 @@ router.post('/signup', UserController.signup);
 // User login.
 router.post('/login', UserController.login);
 // User profile.
-/* router.get('/profile/:id', UserController.getById); */
+router.get ('/profile/:email', UserController.profile);
 // User delete.
 router.delete('/delete', UserController.delete);
 

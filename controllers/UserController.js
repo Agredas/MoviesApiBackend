@@ -43,6 +43,18 @@ const UserController = {
       res.status(500).send({message: 'There was a problem trying to login.'})
     }
   },
+  async profile (req, res) {
+    try {
+      const profileUser = await User.findAll({
+        where: {
+          email: req.params.email 
+        }})
+        res.status(201).send(profileUser)
+    }catch (error) {
+      console.error (error)
+      res.status (500).send ({error, message: 'There was a problem trying to get information.'})
+    }
+  },
   delete(req,res) {
     User.destroy({
       where: {
