@@ -1,19 +1,19 @@
 {
-    "idleHeartbeats": 19953,
-    "navigatingHeartbeats": 8631,
-    "totalCodingHeartbeats": 12060,
+    "idleHeartbeats": 20253,
+    "navigatingHeartbeats": 8938,
+    "totalCodingHeartbeats": 12188,
     "languageHeartbeats": {
-        "scminput": 90,
+        "scminput": 135,
         "ignore": 49,
-        "json": 320,
+        "json": 403,
         "plaintext": 435,
         "javascript": 11048,
         "jsonc": 118
     },
     "fileHeartbeats": {
-        "scm\\git\\scm0\\input": 90,
+        "scm\\git\\scm0\\input": 135,
         ".gitignore": 49,
-        "package.json": 202,
+        "package.json": 285,
         "config/config.json": 118,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
         "app.js": 994,
