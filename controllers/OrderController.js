@@ -11,7 +11,7 @@ const OrderController = {
         include: [{
           model: Movie,
           attributes: ['title'],
-          throught: {
+          through: {
             attributes: []
           }
         }, {
