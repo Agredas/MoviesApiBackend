@@ -3,6 +3,10 @@
 ## Introduction
 This project consists of managing a database for a movie rental website, only backend is touched, frontend will be added later.
 
+[GitHub](https://github.com/Agredas/MoviesApiBackend)
+
+[Heroku](https://movies-api-backend.herokuapp.com/)
+
 The technologies used are: 
 
 - Javascript.
@@ -14,6 +18,7 @@ The technologies used are:
 - Postman.
 - Git.
 - GitHub.
+- Heroku.
 
 ## Endpoints
 

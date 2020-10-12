@@ -1,7 +1,7 @@
 {
-    "idleHeartbeats": 20944,
-    "navigatingHeartbeats": 9314,
-    "totalCodingHeartbeats": 13205,
+    "idleHeartbeats": 21033,
+    "navigatingHeartbeats": 9339,
+    "totalCodingHeartbeats": 13385,
     "languageHeartbeats": {
         "scminput": 135,
         "ignore": 49,
@@ -9,7 +9,7 @@
         "plaintext": 435,
         "javascript": 11048,
         "jsonc": 118,
-        "markdown": 888
+        "markdown": 1068
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 135,
@@ -43,6 +43,6 @@
         "models/ordermovie.js": 97,
         ".vscode/settings.json": 73,
         "bd-remote-config.txt": 46,
-        "README.md": 888
+        "README.md": 1068
     }
 }
