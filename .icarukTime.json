@@ -1,14 +1,14 @@
 {
-    "idleHeartbeats": 16546,
-    "navigatingHeartbeats": 6830,
-    "totalCodingHeartbeats": 9450,
+    "idleHeartbeats": 18971,
+    "navigatingHeartbeats": 8353,
+    "totalCodingHeartbeats": 11861,
     "languageHeartbeats": {
         "scminput": 45,
         "ignore": 49,
         "json": 258,
         "plaintext": 389,
-        "javascript": 8664,
-        "jsonc": 45
+        "javascript": 11002,
+        "jsonc": 118
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 45,
@@ -16,20 +16,20 @@
         "package.json": 202,
         "config/config.json": 56,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
-        "app.js": 869,
-        "models/movie.js": 652,
+        "app.js": 993,
+        "models/movie.js": 732,
         "routes/movies.js": 461,
         "controllers/MovieController.js": 675,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\models\\movie.js.git": 45,
         "models/user.js": 324,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\models\\user.js.git": 45,
-        "controllers/UserController.js": 1795,
+        "controllers/UserController.js": 1875,
         "routes/users.js": 512,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\routes\\users.js.git": 7,
-        "middleware/auth.js": 607,
+        "middleware/auth.js": 912,
         "config/nodemailer.js": 234,
-        "models/order.js": 448,
-        "controllers/OrderController.js": 745,
+        "models/order.js": 686,
+        "controllers/OrderController.js": 2159,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\controllers\\OrderController.js.git": 45,
         "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\settings.json": 45,
         "routes/orders.js": 158,
@@ -38,6 +38,8 @@
         "migrations/20201006194928-create-user.js": 86,
         "migrations/20201008123737-change-movie-title.js": 90,
         "migrations/20201007161739-create-order.js": 174,
-        "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\controllers\\UserController.js.git": 45
+        "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\controllers\\UserController.js.git": 45,
+        "models/ordermovie.js": 97,
+        ".vscode/settings.json": 73
     }
 }

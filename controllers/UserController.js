@@ -48,7 +48,10 @@ const UserController = {
       const profileUser = await User.findAll({
         where: {
           email: req.params.email 
-        }})
+        },
+      attributes: {
+        exclude: ['token', 'id']
+      }})
         res.status(201).send(profileUser)
     }catch (error) {
       console.error (error)

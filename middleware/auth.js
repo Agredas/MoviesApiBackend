@@ -10,7 +10,9 @@ const auth = async(req, res, next) => {
     const user = await User.findOne({
       where: { token: token}
     });
+    console.log(user)
     if(!user) {
+      console.log('hi, user not found')
       return res.status(401).send({ message: 'You are not authorized.'})
     }
     req.user = user;

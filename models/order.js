@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.belongsTo(models.User); // An order only belongs to one user. One to Many inverse relationship.
-      this.belongsToMany(models.Movie, {through: models.OrderMovie}); // An order can belongs to many movies.
+      this.belongsToMany(models.Movie, {through: models.OrderMovie, foreignKey: "orderId" }); // An order can belongs to many movies.
     }
   };
   Order.init({
