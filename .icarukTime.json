@@ -1,19 +1,20 @@
 {
-    "idleHeartbeats": 20253,
-    "navigatingHeartbeats": 8938,
-    "totalCodingHeartbeats": 12188,
+    "idleHeartbeats": 20944,
+    "navigatingHeartbeats": 9314,
+    "totalCodingHeartbeats": 13205,
     "languageHeartbeats": {
         "scminput": 135,
         "ignore": 49,
-        "json": 403,
+        "json": 532,
         "plaintext": 435,
         "javascript": 11048,
-        "jsonc": 118
+        "jsonc": 118,
+        "markdown": 888
     },
     "fileHeartbeats": {
         "scm\\git\\scm0\\input": 135,
         ".gitignore": 49,
-        "package.json": 285,
+        "package.json": 414,
         "config/config.json": 118,
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\app.js.git": 45,
         "app.js": 994,
@@ -41,6 +42,7 @@
         "c:\\Users\\Usuario\\Desktop\\MoviesApiBackend\\controllers\\UserController.js.git": 45,
         "models/ordermovie.js": 97,
         ".vscode/settings.json": 73,
-        "bd-remote-config.txt": 46
+        "bd-remote-config.txt": 46,
+        "README.md": 888
     }
 }
