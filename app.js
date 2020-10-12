@@ -4,8 +4,7 @@ const usersRouter = require('./routes/users');
 const ordersRouter = require('./routes/orders');
 const auth = require('./middleware/auth');
 const app = express();
-/* const PORT = process.env.PORT || 3000; */
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.get('/', auth, (req,res) => res.send(req.user))
 
